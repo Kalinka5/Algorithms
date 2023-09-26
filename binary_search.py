@@ -1,5 +1,6 @@
 def binary_search(lst, target):
-    """Returns the index position of the target if ounf, else returns None"""
+    """Returns the index position of the target if found, else returns None"""
+    
     start = 0
     end = len(lst) - 1
 

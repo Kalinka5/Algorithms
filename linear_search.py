@@ -1,5 +1,5 @@
 def linear_search(lst, target):
-    """Returns the index position of the target if ounf, else returns None"""
+    """Returns the index position of the target if found, else returns None"""
 
     for n, i in enumerate(lst):
         if i == target:
