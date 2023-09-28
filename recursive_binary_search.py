@@ -1,7 +1,7 @@
 def recursive_binary_search(lst, target):
     """Returns the True if target is found, else returns False"""
 
-    if len(lst) == 0:
+    if len(lst) == 0:  # if list is empty - returns False
         return False
     else:
         midpoint = (len(lst)) // 2
